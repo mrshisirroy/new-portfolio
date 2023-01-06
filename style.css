@@ -1,10 +1,17 @@
 body{
-font-family: 'Open Sans', sans-serif;
-font-family: 'PT Serif', serif;
-font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
 }
 .name-highlight{
     color: blue;
@@ -17,4 +24,46 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+/* My plan */
+.my-plan{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+
+
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    padding: 130px 200px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color: black;
+
 }
